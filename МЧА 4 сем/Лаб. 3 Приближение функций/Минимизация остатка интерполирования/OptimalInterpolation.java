@@ -26,7 +26,7 @@ public class OptimalInterpolation {
         points[1] = a + (n / 2) * 0.1 + 0.1 / 2;
         points[2] = a + n * 0.1 - 0.1 / 3;
 
-        coeff =  a * Math.exp(b) + (1 - a) * Math.cos(b) / FACT_11;
+        coeff =  (a * Math.exp(b) + (1 - a) * Math.sin(b)) / FACT_11;
     }
 
     public void pointValues(){
