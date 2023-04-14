@@ -1,0 +1,7 @@
+reset;
+model lab1.mod;
+data lab1.dat;
+option solver cplex;
+solve;
+display totalcost;
+display x;
