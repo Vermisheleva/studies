@@ -1,0 +1,7 @@
+reset;
+model 2.1.mod;
+data 3.dat;
+option solver cplex;
+solve;
+display y;
+#display x;
