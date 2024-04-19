@@ -1,0 +1,1 @@
+EXEC sp_helpdb N'Ucheb_7_Zuikevich';
